@@ -1,0 +1,14 @@
+{
+  "name": "paying-your-debts",
+  "version": "0.1.0",
+  "description": "Slides for my talk at #HXCONF2016 focused on raising awareness of technical debt and the right ways to pay it off",
+  "main": "index.js",
+  "devDependencies": {
+    "live-server": "^1.1.0"
+  },
+  "scripts": {
+    "start": "live-server ."
+  },
+  "author": "@LouisPryer",
+  "license": "ISC"
+}

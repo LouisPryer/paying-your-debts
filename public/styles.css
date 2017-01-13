@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+}
+.remark-slide-content {
+  background-color: #542e91;
+}
+.link a, h5 a {
+  text-decoration: underline;;
+  color: white;
+}
+.quote {
+  font-size: 25px;
+}
+.middleDiv img {
+  padding-left: 30%;
+}

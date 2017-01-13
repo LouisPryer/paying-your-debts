@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Paying Your Debts</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="public/styles.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# Paying your debts
+
+---
+
+class: center, middle
+
+# How much technical debt is in the systems you work in?
+
+---
+
+class: center, middle
+
+# How do you "pay off" Technical Debt?
+
+---
+
+class: center, middle
+
+## Identifying Debt
+
+![down](/public/images/down-arrow.png)
+
+## Raising Debt
+
+![down](/public/images/down-arrow.png)
+
+## Actioning Debt
+
+---
+
+class: center, middle
+
+# Disclaimer: Technical Debt isn't bad.
+
+![devil](/public/images/devil.gif)
+
+## Used well it can be a powerful tool
+
+---
+
+class: center, middle
+
+# For example...
+## Experimentations, trails and small projects
+
+[![The Art of the Bodge by Tom Scott](http://img.youtube.com/vi/lIFE7h3m40U/0.jpg)](http://www.youtube.com/watch?v=lIFE7h3m40U)
+
+.link[The Art of the Bodge, https://www.youtube.com/user/enyay]
+
+---
+
+class: center, middle
+
+# Case scenario our pod used Tech Debt effectively
+
+![Hotel Info Page](/public/images/hotel-info.png)
+
+---
+
+class: middle, left
+
+# Identifying debt
+
+- ## Before Development
+- ## During Development
+- ## After Development
+
+---
+
+class: center, middle
+
+# Before Development
+
+---
+
+class: center, middle
+
+# Backlog review
+
+---
+
+class: center, middle
+
+# Investigation around the code base
+
+![Sherlock Holmes](/public/images/sherlock.png)
+
+---
+
+class: center, middle
+
+# Sprint planning
+
+---
+
+class: middle, left
+
+> .quote[Paul (product owner): Ok! To finish, I’d like you to give me an estimate for that feature:]
+> .quote[“as a user, I am prevented from downloading an app if my device does not run the minimum OS version”.]
+
+> .quote[Pierre (dev #1): That’s an easy one, need to do this, that and that. Should take three days.]
+
+> .quote[Marie (dev #2): Pierre, do you know that the method used to determine the device’s minimum OS version has not been changed in 2 years?]
+> .quote[It has at least 3 or 4 nested if statements. Oh and the function is too long to be read without scrolling.]
+> .quote[Dear Paul, I agree with Pierre on the base estimation, but the refactoring of the messy function will take up to two days.]
+
+##### So you want to manage technical debt, https://medium.com/appaloosa-store-engineering/so-you-want-to-manage-technical-debt-7e5f376497f8#.ntaheoadv. Accessed 2 Dec 2016]
+
+---
+
+class: left, middle
+
+# Estimation Hesitation
+
+- ## Test coverage in that area is poor
+
+---
+
+class: middle, left
+
+# Estimation Hesitation
+
+- ### Test coverage in that area is poor
+- ## Selenium tests are going to be a pain to tweak
+
+---
+
+class: middle, left
+
+# Estimation Hesitation
+
+- ### Test coverage in that area is poor
+- ### Selenium tests are going to be a pain to tweak
+- ## We had issues with this in the past, it's always been that way
+
+---
+
+class: middle, left
+
+# Estimation Hesitation
+
+- ### Test coverage in that area is poor
+- ### Selenium tests are going to be a pain to tweak
+- ### We had issues with this in the past, it's always been that way
+- ## The fastest solution is X, but will take some extra time further down the line...
+
+.middleDiv[
+  ![Hesitating](/public/images/fillion.gif)
+]
+
+---
+
+
+class: center, middle
+
+# Variations in Estimation
+
+---
+
+class: center, middle
+
+# Unsureness
+![Clefairy](/public/images/clefairy.gif)
+
+---
+
+class: center, middle
+
+# During Development
+
+---
+
+class: center, middle
+
+# Bodges, hacks in code base
+![Hackerman](/public/images/hackerman.gif)
+
+---
+
+class: center, middle
+
+# Standups
+
+---
+
+class: center, middle
+
+# Ask around
+
+## Not sure if technical debt, open up a discussion
+
+---
+
+class: center, middle
+
+# After Development
+![now what](/public/images/nemo.gif)
+
+---
+
+class: center, middle
+
+# PRs
+
+---
+
+class: middle, left
+
+# Raising technical debt
+
+- ## Technical Debt Catchup
+- ## Relevant to upcoming work
+- ## Priorities
+- ## General Awareness
+
+---
+
+class: center, middle
+
+# Going over technical debt encountered or raised in the previous sprint
+
+---
+
+class: center, middle
+
+# Technical Debt Catchup
+## Engineer and Scrum Master catchup
+
+---
+
+class: center, middle
+
+# Technical Debt Catchup
+## Pod Lead catchup with SM and engineer representive
+### Tech Debt Champions!
+
+---
+
+class: middle, left
+
+- ## Description of the debt
+
+- ## Customer Impact
+
+- ## Developer Impact
+
+- ## Performance Impact
+
+- ## Potential of debt increasing and issues the debt may cause
+
+- ## Potential Solution
+
+---
+
+class: center, middle
+
+# Relevance to upcoming work
+
+---
+
+class: center, middle
+
+# Priorities
+
+---
+
+class: center, middle
+
+# General Awareness
+
+---
+
+class: middle, left
+
+# Actioning debt
+
+- ## Within the team
+- ## Breaking down technical talk
+- ## Paying off debt in sprints
+
+---
+
+class: center, middle
+
+# Within the team
+
+---
+
+class: center, middle
+
+# Breaking down technical talk
+
+---
+
+class: center, middle
+
+# Paying off debt in sprints
+
+---
+
+class: center, middle
+
+# Conclusion
+
+---
+
+class: center, middle
+
+# A Lannister always pays his debts!
+
+![A Lannister always pays his debts](/public/images/lannister.gif)
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create({
+        navigation: {
+          scroll: false,
+          click: true,
+          touch: true
+        },
+        slideNumberFormat: ''
+      });
+    </script>
+  </body>
+</html>
